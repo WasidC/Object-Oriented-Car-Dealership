@@ -1,15 +1,21 @@
-# Project Title
+# Car Dealership Console Application
 
 ## Description of the Project
 
-Briefly describe what this Java console application does. Mention its purpose and who the intended users are. Explain the main functionality and what problems it aims to solve.
+This Java console application simulates a mini car dealership system designed for use by a salesperson or sales manager. The purpose of the application is to manage and search a dealership’s vehicle inventory efficiently using an intuitive, text-based interface.
+
+Users can view all available vehicles, search by different criteria (price, make/model, year, color, mileage, or type), and add or remove vehicles from the inventory. All inventory data is stored and updated in a pipe-delimited file, ensuring that any changes are saved automatically.
+
+The goal is to provide a lightweight, object-oriented solution for managing vehicle data without needing a graphical interface or complex database.
+
 
 ## User Stories
 
-List the user stories that guided the development of your application. Format these stories as: "As a [type of user], I want [some goal] so that [some reason]."
-
-- As a user, I want to be able to input my data, so that the application can process it accordingly.
-- As a user, I want to receive immediate feedback, so I can understand what to do next.
+- As a sales associate, I want to search for vehicles by price, type, or mileage so that I can quickly find options for customers.
+- As a sales manager, I want to add and remove vehicles from the inventory so that I can keep the dealership’s data up to date.
+- As a user, I want to view all vehicles currently in stock so that I can get a clear overview of available inventory.
+- As a user, I want the application to save my updates automatically so that I don’t lose any changes.
+- As a user, I want to receive clear feedback on each command so that I always know what actions were successful.
 
 ## Setup
 
@@ -32,37 +38,38 @@ Follow these steps to get your application running within IntelliJ IDEA:
 
 ## Technologies Used
 
-- Java: Mention the version you are using.
-- Any additional libraries or frameworks used in the project.
+- Java (Version 17)
+- IntelliJ IDEA (for development and testing)
+- Java I/O (java.io, java.nio) — Used for file reading and writing. 
+- Collections Framework (ArrayList, Streams) — Used for managing and searching the vehicle list.
 
 ## Demo
 
-Include screenshots or GIFs that show your application in action. Use tools like [Giphy Capture](https://giphy.com/apps/giphycapture) to record a GIF of your application.
+![img.png](img.png)
 
-![Application Screenshot](path/to/your/screenshot.png)
+![img_1.png](img_1.png)
+
+![img_2.png](img_2.png)
+
+
 
 ## Future Work
 
-Outline potential future enhancements or functionalities you might consider adding:
-
-- Additional feature to be developed.
-- Improvement of current functionalities.
+- Integrate user authentication for different dealership roles.
+- Implement data validation and error handling for malformed files.
+- Support multiple dealership files with a “Switch Dealership” feature.
 
 ## Resources
 
-List resources such as tutorials, articles, or documentation that helped you during the project.
 
 - [Java Programming Tutorial](https://www.example.com)
 - [Effective Java](https://www.example.com)
 
 ## Team Members
 
-- **Name 1** - Specific contributions or roles.
-- **Name 2** - Specific contributions or roles.
+- Wasid Chowdhury
 
 ## Thanks
 
-Express gratitude towards those who provided help, guidance, or resources:
 
-- Thank you to [Mentor's Name] for continuous support and guidance.
-- A special thanks to all teammates for their dedication and teamwork.
+- Thank you to Raymond, Potato Sensei for continuous support and guidance.
