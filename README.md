@@ -8,7 +8,6 @@ Users can view all available vehicles, search by different criteria (price, make
 
 The goal is to provide a lightweight, object-oriented solution for managing vehicle data without needing a graphical interface or complex database.
 
-
 ## User Stories
 
 - As a sales associate, I want to search for vehicles by price, type, or mileage so that I can quickly find options for customers.
@@ -40,17 +39,19 @@ Follow these steps to get your application running within IntelliJ IDEA:
 
 - Java (Version 17)
 - IntelliJ IDEA (for development and testing)
-- Java I/O (java.io, java.nio) — Used for file reading and writing. 
+- Java I/O (java.io, java.nio) — Used for file reading and writing.
 - Collections Framework (ArrayList, Streams) — Used for managing and searching the vehicle list.
+
 
 ## Demo
 
-![img.png](img.png)
-
 ![img_1.png](img_1.png)
+
 
 ![img_2.png](img_2.png)
 
+
+![img_3.png](img_3.png)
 
 
 ## Future Work
@@ -61,6 +62,7 @@ Follow these steps to get your application running within IntelliJ IDEA:
 
 ## Resources
 
+List resources such as tutorials, articles, or documentation that helped you during the project.
 
 - [Java Programming Tutorial](https://www.example.com)
 - [Effective Java](https://www.example.com)
@@ -70,6 +72,5 @@ Follow these steps to get your application running within IntelliJ IDEA:
 - Wasid Chowdhury
 
 ## Thanks
-
 
 - Thank you to Raymond, Potato Sensei for continuous support and guidance.
